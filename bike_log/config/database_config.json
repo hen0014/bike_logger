@@ -1,0 +1,267 @@
+{
+    "tables": [
+    {
+        "name": "bike",
+        "columns": [
+            {
+                "name": "id",
+                "type": "text"
+            },
+            {
+                "name": "entry_date",
+                "type": "text"
+            },
+            {
+                "name": "entry_type",
+                "type": "text"
+            },
+            {
+                "name": "bike_id",
+                "type": "text"
+            },
+            {
+                "name": "bike_name",
+                "type": "text"
+            },
+            {
+                "name": "type",
+                "type": "text"
+            },
+            {
+                "name": "make",
+                "type": "text"
+            },
+            {
+                "name": "mfg_year",
+                "type": "int"
+            },
+            {
+                "name": "shop",
+                "type": "text"
+            },
+            {
+                "name": "purchase_price",
+                "type": "real"
+            },
+            {
+                "name": "odo",
+                "type": "real"
+            },
+            {
+                "name": "website_url",
+                "type": "text"
+            },
+            {
+                "name": "receipt_url",
+                "type": "text"
+            }
+        ]
+    },
+    {
+        "name": "ebike_charge",
+        "columns": [
+            {
+                "name": "id",
+                "type": "text"
+            },
+            {
+                "name": "entry_date",
+                "type": "text"
+            },
+            {
+                "name": "entry_type",
+                "type": "text"
+            },
+            {
+                "name": "bike_id",
+                "type": "text"
+            },
+            {
+                "name": "charge_date",
+                "type": "text"
+            },
+            {
+                "name": "charge_kwh",
+                "type": "real"
+            },
+            {
+                "name": "ppkwh",
+                "type": "int"
+            },
+            {
+                "name": "solar_percentage",
+                "type": "real"
+            },
+            {
+                "name": "charge_cost",
+                "type": "real"
+            },
+            {
+                "name": "rides_per_charge",
+                "type": "int"
+            }
+        ]
+    },
+    {
+        "name": "expense",
+        "columns": [
+            {
+                "name": "id",
+                "type": "text"
+            },
+            {
+                "name": "entry_date",
+                "type": "text"
+            },
+            {
+                "name": "entry_type",
+                "type": "text"
+            },
+            {
+                "name": "bike_id",
+                "type": "text"
+            },
+            {
+                "name": "type",
+                "type": "text"
+            },
+            {
+                "name": "shop",
+                "type": "text"
+            },
+            {
+                "name": "item_name",
+                "type": "text"
+            },
+            {
+                "name": "unit_price",
+                "type": "real"
+            },
+            {
+                "name": "quantity",
+                "type": "int"
+            },
+            {
+                "name": "cost",
+                "type": "real"
+            },
+            {
+                "name": "receipt_url",
+                "type": "text"
+            },
+            {
+                "name": "website_url",
+                "type": "text"
+            },
+            {
+                "name": "notes",
+                "type": "text"
+            }
+
+        ]
+    },
+    {
+        "name": "maintenance",
+        "columns": [
+            {
+                "name": "id",
+                "type": "text"
+            },
+            {
+                "name": "entry_date",
+                "type": "text"
+            },
+            {
+                "name": "entry_type",
+                "type": "text"
+            },
+            {
+                "name": "bike_id",
+                "type": "text"
+            },
+            {
+                "name": "service_id",
+                "type": "text"
+            },
+            {
+                "name": "service_date",
+                "type": "text"
+            },
+            {
+                "name": "type",
+                "type": "text"
+            },
+            {
+                "name": "provider",
+                "type": "text"
+            },
+            {
+                "name": "work_performed",
+                "type": "text"
+            },
+            {
+                "name": "hours",
+                "type": "real"
+            },
+            {
+                "name": "cost",
+                "type": "real"
+            },
+            {
+                "name": "receipt_url",
+                "type": "text"
+            },
+            {
+                "name": "provider_url",
+                "type": "text"
+            },
+            {
+                "name": "notes",
+                "type": "text"
+            }
+
+        ]
+    },
+    {
+        "name": "trips",
+        "columns": [
+            {
+                "name": "id",
+                "type": "text"
+            },
+            {
+                "name": "entry_date",
+                "type": "text"
+            },
+            {
+                "name": "entry_type",
+                "type": "text"
+            },
+            {
+                "name": "bike_id",
+                "type": "text"
+            },
+            {
+                "name": "ride_date",
+                "type": "text"
+            },
+            {
+                "name": "ride_distance_kmph",
+                "type": "text"
+            },
+            {
+                "name": "start",
+                "type": "text"
+            },
+            {
+                "name": "destination",
+                "type": "text"
+            },
+            {
+                "name": "strava_url",
+                "type": "text"
+            }
+        ]
+    }
+    ]
+}

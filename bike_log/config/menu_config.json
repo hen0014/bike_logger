@@ -1,0 +1,84 @@
+{
+    "menu": [
+        {
+            "name": "Bike_db",
+            "submenus": [
+                {
+                    "name": "view"
+                },
+                {
+                    "name": "add_entry"
+                },
+                {
+                    "name": "delet_entry"
+                },
+                {
+                    "name": "adjust_entry"
+                },
+                {
+                    "name": "export_csv"
+                },
+                {
+                    "name": "back"
+                }
+            ]
+        },
+        {
+            "name": "charge_db",
+            "submenus": [                
+                {
+                    "name": "view"
+                },
+                {
+                    "name": "add_entry"
+                },
+                {
+                    "name": "delet_entry"
+                },
+                {
+                    "name": "adjust_entry"
+                },
+                {
+                    "name": "export_csv"
+                },
+                {
+                    "name": "back"
+                }
+            ]
+        },
+        {
+            "name": "expense_db",
+            "submenus": [                
+                {
+                    "name": "view"
+                },
+                {
+                    "name": "add_entry"
+                },
+                {
+                    "name": "delet_entry"
+                },
+                {
+                    "name": "adjust_entry"
+                },
+                {
+                    "name": "export_csv"
+                },
+                {
+                    "name": "back"
+                }
+            ]
+        },
+        {
+            "name": "stats",
+            "submenus": [                
+                {
+                    "name": "year_stats"
+                },
+                {
+                    "name": "back"
+                }
+            ]
+        }
+    ]   
+}
